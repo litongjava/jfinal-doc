@@ -1,4 +1,10 @@
+// 引入JSON文件
+const sidebarZh = require('./sidebar-zh.json');
+const sidebarEn = require('./sidebar-en.json');
 module.exports = {
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     logo: '/jfinallogo.png',
     nav: [{
@@ -19,11 +25,11 @@ module.exports = {
         ariaLabel: 'Language Menu',
         items: [{
             text: 'Chinese',
-            link: '/zh/guide/'
+            link: '/zh/1 快速上手/1.0 快速上手.md'
           },
           {
             text: 'English',
-            link: '/en/guide/'
+            link: '/en/1 Quick Start/1.0 Quick Start.md'
           }
         ]
       },
@@ -31,6 +37,10 @@ module.exports = {
         text: 'Abount',
         link: '/about/',
       }
-    ]
-  }
+    ],
+    sidebar: {
+      '/zh/': sidebarZh,
+      '/en/': sidebarEn
+    }
+  },
 }

@@ -4,7 +4,7 @@ heroImage: ./jfinallogo.png
 heroText: JFinal
 tagline: 基于Java的快速开放框架
 actionText: 快速上手 →
-actionLink: /zh/guide/
+actionLink: /zh/1 快速上手/1.0 快速上手.md
 features:
 - title: 简洁至上
   details: 以 编码 为中心的框架设计，以最少的配置帮助你专注于开发。
