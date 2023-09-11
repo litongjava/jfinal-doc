@@ -13,13 +13,13 @@
 1.11 特别声明
 2 JFinalConfig
 2.1 概述
-2.2 configConstant(..)
-2.3 configRoute(..)
-2.4 configEngine(..)
-2.5 configPlugin(..)
-2.6 configInterceptor(..)
-2.7 configHandler(..)
-2.8 onStart()、onStop() 回调配置
+2.2 configConstant
+2.3 configRoute
+2.4 configEngine
+2.5 configPlugin
+2.6 configInterceptor
+2.7 configHandler
+2.8 onStart and onStop 回调配置
 2.9 PropKit 读取配置
 3 Controller
 3.1 概述
@@ -48,7 +48,7 @@
 5.2 ActiveRecordPlugin
 5.3 Model
 5.4 生成器与 JavaBean
-5.5 独创Db + Record模式
+5.5 独创Db Record模式
 5.6 paginate 分页
 5.7 数据库事务处理
 5.8 Cache 缓存

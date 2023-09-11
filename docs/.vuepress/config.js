@@ -34,7 +34,7 @@ module.exports = {
         ]
       },
       {
-        text: 'Abount',
+        text: 'About',
         link: '/about/',
       }
     ],
