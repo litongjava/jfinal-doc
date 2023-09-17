@@ -171,15 +171,15 @@
 		]
 	},
 	{
-		"title": "14 升级到 5.1.2.md",
+		"title": "14 升级JFinal",
 		"collapsable": false,
 		"children": [
-			"14 升级到 5.1.2/14.1 极速升级.md",
-			"14 升级到 5.1.2/14.2 Ret.md",
-			"14 升级到 5.1.2/14.3 configEngine.md",
-			"14 升级到 5.1.2/14.4 baseViewPath.md",
-			"14 升级到 5.1.2/14.5 RenderFactory.md",
-			"14 升级到 5.1.2/14.6 其它.md"
+			"14 升级JFinal/14.1 极速升级.md",
+			"14 升级JFinal/14.2 Ret.md",
+			"14 升级JFinal/14.3 configEngine.md",
+			"14 升级JFinal/14.4 baseViewPath.md",
+			"14 升级JFinal/14.5 RenderFactory.md",
+			"14 升级JFinal/14.6 其它.md"
 		]
 	}
 ]
