@@ -3,6 +3,7 @@ const sidebarZh = require('./sidebar-zh.json');
 const sidebarEn = require('./sidebar-en.json');
 const navEn = require('./nav-en.json');
 module.exports = {
+	base:'/jfinal-doc/',
 	title: 'JFinal',
 	description: 'Java Web 快速开发框架',
 	head: [
