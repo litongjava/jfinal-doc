@@ -35,7 +35,7 @@ module.exports = {
     }],
   ],
   plugins: [
-    '@vuepress/pwa', {
+    ['@vuepress/pwa', {
       serviceWorker: true,
       updatePopup: {
         '/': {
@@ -47,7 +47,15 @@ module.exports = {
           buttonText: "刷新"
         }
       }
-    }
+    }],
+    ['@vssue/vuepress-plugin-vssue', {
+      platform: 'github-v4',
+      owner: 'litongjava',
+      repo: 'jfinal-doc',
+      clientId: 'ae6d92a29afb796496fb',
+      clientSecret: '9c459b786da1ccb9608e951e3e118a5e026ada69',
+      autoCreateIssue: true,
+    }]
   ],
 
   markdown: {
