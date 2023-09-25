@@ -29,4 +29,5 @@ module.exports = [
     }
   ],
   ['@vuepress/medium-zoom'],
+  ['fulltext-search']
 ]
