@@ -1,4 +1,4 @@
-const secret = require('./secret');
+require('dotenv').config();
 module.exports = [
   ['@vuepress/pwa', {
     serviceWorker: true,
@@ -17,15 +17,17 @@ module.exports = [
     platform: 'github-v4',
     owner: 'litongjava',
     repo: 'jfinal-doc',
-    clientId: secret.clientId,
-    clientSecret: secret.clientSecret,
+    clientId: process.env.CLIENT_ID,
+    clientSecret: process.env.CLIENT_SECRET,
     autoCreateIssue: true,
   }],
   ['@vuepress/back-to-top'],
   [
     '@vuepress/google-analytics',
     {
-      'ga': secret.ga
+      'ga': process.env.GA,
     }
-  ]
+  ],
+  ['@vuepress/medium-zoom'],
+  ['fulltext-search']
 ]
