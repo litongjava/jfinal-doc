@@ -27,5 +27,6 @@ module.exports = [
     {
       'ga': process.env.GA,
     }
-  ]
+  ],
+  ['@vuepress/medium-zoom'],
 ]
